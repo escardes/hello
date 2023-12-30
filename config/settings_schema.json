@@ -18,7 +18,7 @@
       },
       {
         "type": "text",
-        "id": "id",
+        "id": "text",
         "label": "Text",
         "default": "value",
         "info": "Text",
