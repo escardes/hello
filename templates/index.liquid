@@ -5,7 +5,7 @@
 {{ collection.title }}
 <ul>
   {% for val in collection.products %}
-    <li> <a href = "{{ val.url }}">{{ val.title }}-
+    <li> <a  style="{{ settings.link_color }}" href = "{{ val.url }}">{{ val.title }}-
       {{ val.price |money }}
       {% if val.available != true %}
         ( SOLDOUT)
