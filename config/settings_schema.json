@@ -19,7 +19,7 @@
       {
         "type": "text",
         "id": "id",
-        "label": "text",
+        "label": "Text",
         "default": "value",
         "info": "Text",
         "placeholder": "Text"
