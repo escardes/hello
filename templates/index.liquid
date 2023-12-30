@@ -7,8 +7,8 @@
 {{ collection.title }}
 <ul>
   {% for val in collection.products %}
-    <li> 
-      {{ val.price |money }}
+    <li> <a>
+      {{ val.price |money }}</a>
     </li>
   {% endfor %}
 </ul>
