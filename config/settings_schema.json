@@ -13,8 +13,16 @@
       {
         "type": "color",
         "id": "link_color",
-        "label": "Likn color",
+        "label": "Link color",
         "default": "#000"
+      },
+      {
+        "type": "text",
+        "id": "id",
+        "label": "text",
+        "default": "value",
+        "info": "Text",
+        "placeholder": "Text"
       }
     ]
   }
