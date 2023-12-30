@@ -1,6 +1,7 @@
 {
   "current": {
-    "text": "",
+    "link_color": "#9f9595",
+    "text": "new color",
     "content_for_index": [
 
     ]
@@ -11,7 +12,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card{color: \"black\"}"
+      ".card {color: \"black\";}"
     ]
   }
 }
