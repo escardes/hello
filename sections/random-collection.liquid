@@ -5,12 +5,14 @@
 {{ collection.title }}
 <ul>
   {% for val in collection.products %}
-    <li> <a  style="color:{{ settings.link_color }}" href = "{{ val.url }}">{{ val.title }}-
-      {{ val.price |money }}
-      {% if val.available != true %}
-        ( SOLDOUT)
-      {% endif %}</a>
-    </li>
+    {% if section.settings.show-soldout %}
+      <li> <a  style="color:{{ settings.link_color }}" href = "{{ val.url }}">{{ val.title }}-
+        {{ val.price |money }}
+        {% if val.available != true %}
+          ( SOLDOUT)
+        {% endif %}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
