@@ -1,16 +1,1 @@
-{% assign collection = collections['all'] %}
-
-{{ collection }}
-
-{{ collection.title }}
-<ul>
-  {% for val in collection.products %}
-    <li> <a  style="color:{{ settings.link_color }}" href = "{{ val.url }}">{{ val.title }}-
-      {{ val.price |money }}
-      {% if val.available != true %}
-        ( SOLDOUT)
-      {% endif %}</a>
-    </li>
-  {% endfor %}
-</ul>
-
+{% section 'random-collection' %}
