@@ -9,6 +9,9 @@
   {% for val in collection.products %}
     <li> <a href = "{{ val.url }}">{{ val.title }}-
       {{ val.price |money }}</a>
+      {% if val.available != true %}
+        ( SOLDOUT)
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
