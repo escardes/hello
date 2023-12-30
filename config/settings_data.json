@@ -2,6 +2,14 @@
   "current": {
     "link_color": "#cc2020",
     "text": "",
+    "sections": {
+      "random-collection": {
+        "type": "random-collection",
+        "settings": {
+          "hide-soldout": true
+        }
+      }
+    },
     "content_for_index": [
 
     ]
