@@ -1,6 +1,17 @@
 {
-  "current": "Default",
+  "current": {
+    "text": "",
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".card{color: \"black\"}"
+    ]
   }
 }
