@@ -7,7 +7,7 @@
 {{ collection.title }}
 <ul>
   {% for val in collection.products %}
-    <li> <a>
+    <li> <a href = "{{ val.url }}">
       {{ val.price |money }}</a>
     </li>
   {% endfor %}
