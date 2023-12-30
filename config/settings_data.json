@@ -1,7 +1,7 @@
 {
   "current": {
     "link_color": "#cc2020",
-    "text": "new color",
+    "text": "",
     "content_for_index": [
 
     ]
@@ -12,7 +12,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card {color: \"black\";}"
+
     ]
   }
 }
