@@ -1,7 +1,15 @@
 
 
-{% assign collection = collections['featured-collection'] %}
+{% assign collection = collections['all'] %}
 
 {{ collection }}
 
 {{ collection.title }}
+<ul>
+  {% for val in collection.products %}
+    <li> 
+      {{ val.price |money }}
+    </li>
+  {% endfor %}
+</ul>
+
